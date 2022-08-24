@@ -1,0 +1,5 @@
+User-Agent: *
+
+Disallow: /media/
+
+# Sitemap: https://domain.com/sitemap.xml
