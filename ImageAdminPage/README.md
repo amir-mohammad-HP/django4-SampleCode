@@ -39,3 +39,16 @@ urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media/'
 ```
+
+
+# content preview:
+## start project
+## configure media root
+## methods:
+### imageadmin 
+create app in very normal approach and add preview settings in adminModel
+### imageadmin2
+put image tag inside the app in which can be accessible more in our custom templates too!
+
+a very usefull advantage of the second approache is to use with custom tags that we can make advantage of this
+later on with help of custom template tags you can use this function to contain images tags in your templates
