@@ -6,3 +6,4 @@ class ImageModel(models.Model):
 		"image",
 		upload_to = 'image_media/',
 	)
+
